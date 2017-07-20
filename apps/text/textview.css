@@ -1,0 +1,41 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+
+html, body{
+    width: 100%;
+    min-width: 100%;
+    height:100%;
+    min-height:100%;}
+    
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+  				45deg,#111, #111 3px, #27272b 3px, #27272b 10px
+	);
+    text-align: center;
+}
+
+.title {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    font-size: 5em;
+    color: white;
+}
+
+select {
+    height: 50px;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 2em;
+    color: #104d90;
+}
+
+.nav {
+    height: 150px;
+    padding: 25px;
+}
+
+.msg {
+    color: red;
+}
+
